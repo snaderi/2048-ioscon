@@ -9,12 +9,13 @@
 #import "M2AppDelegate.h"
 #import <BuddyBuildSDK/BuddyBuildSDK.h>
 
+
 @implementation M2AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"didFinishLaunchingWithOptions - setting up BuddyBuildSDK");
-  [BuddyBuildSDK setup];
+    [BuddyBuildSDK setup];
   
   return YES;
 }
