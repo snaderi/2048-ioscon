@@ -4,10 +4,10 @@
 target 'm2048' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-  pod 'Fabric'
-  pod 'Crashlytics'
 
   # Pods for m2048
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'm2048UITests' do
     inherit! :search_paths
